@@ -1,567 +1,570 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 #left-side {
-    margin-left: 4px;
-    text-align: center;
-    background-color: #03254c;
-    width: 272px;
-    height: 100vh;
+  margin-left: 4px;
+  text-align: center;
+  background-color: #03254c;
+  width: 272px;
+  height: 100vh;
 }
 
 #contentmanager-heading {
-    display: flex;
-    margin-top: 56px;
-    color: white;
-    margin-left: 31px;
-    width: 220px;
-    height: 46px;
+  display: flex;
+  margin-top: 56px;
+  color: white;
+  margin-left: 31px;
+  width: 220px;
+  height: 46px;
 }
 
 .line {
-    border: 2px solid white;
-    width: 253px;
-    margin-top: 27px;
-    margin-bottom: auto;
+  border: 2px solid white;
+  width: 253px;
+  margin-top: 27px;
+  margin-bottom: auto;
 }
 
 #welcome-main-h1 {
-    color: white;
+  color: white;
 }
 
 #contentmanager {
-    font-size: 16px;
-    margin-top: -1px;
-    margin-left: 15px;
-    color: white;
+  font-size: 16px;
+  margin-top: -1px;
+  margin-left: 15px;
+  color: white;
 }
 
 #contentmanager-heading:hover {
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .content-img {
-    width: 47px;
-    height: 25px;
-    object-fit: cover;
-    color: white;
+  width: 47px;
+  height: 25px;
+  object-fit: cover;
+  color: white;
 }
 
 .plug-gen-div {
-    display: flex;
-    margin-top: 20px;
-    width: 269px;
-    height: 46px;
+  display: flex;
+  margin-top: 20px;
+  width: 269px;
+  height: 46px;
 }
 
 .plug-gen-div:hover {
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 #plugin {
-    color: white;
-    font-size: 16px;
-    margin-left: 46px;
+  color: white;
+  font-size: 16px;
+  margin-left: 46px;
 }
 
 #general {
-    color: white;
-    font-size: 16px;
-    margin-left: 46px;
+  color: white;
+  font-size: 16px;
+  margin-left: 46px;
 }
 
-
 .icon {
-    color: white;
-    margin-left: 114px;
-    margin-top: 16px;
-    cursor: pointer;
+  color: white;
+  margin-left: 114px;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
 .icon-up {
-    color: white;
-    margin-left: 114px;
-    margin-top: 16px;
-    cursor: pointer;
-
+  color: white;
+  margin-left: 114px;
+  margin-top: 16px;
+  cursor: pointer;
 }
 
 .gen-icon {
-    margin-left: 111px;
-    cursor: pointer;
+  margin-left: 111px;
+  cursor: pointer;
 }
 
 .welcome-toggle-content {
-    font-size: 15px;
-    color: white;
-    margin-left: -146px;
+  font-size: 15px;
+  color: white;
+  margin-left: -146px;
 }
 
 .set {
-    margin-left: -177px;
+  margin-left: -177px;
 }
 
 .lib {
-    margin-left: -134px;
+  margin-left: -134px;
 }
 
 .con {
-    margin-left: -132px;
+  margin-left: -132px;
 }
 
 #welcome-main-content {
-    display: flex;
+  display: flex;
 }
 
 #right-side {
-    margin-left: 40px;
-    display: flex;
+  margin-left: 40px;
+  display: flex;
 }
 
 #welcome-content {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .welcome-content-list {
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-    display: flex;
-    width: 70%;
-    height: 90px;
-    margin-bottom: 10px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  width: 70%;
+  height: 90px;
+  margin-bottom: 10px;
 }
 
 .right-img {
-    width: 74px;
-    height: 46px;
-    object-fit: contain;
-    margin-top: 17px;
+  width: 74px;
+  height: 46px;
+  object-fit: contain;
+  margin-top: 17px;
 }
 
 .welcome-h-p {
-    margin-left: 15px;
-    margin-top: 0px;
+  margin-left: 15px;
+  margin-top: 0px;
 }
 
 .p {
-    margin-left: 6px;
-    margin-top: -15px;
+  margin-left: 6px;
+  margin-top: -15px;
 }
 
 .h1 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #content-manager-main-div {
-    width: 220px;
-    height: 100vh;
-    background-color: #03254c;
-    margin-left: 11px;
-    margin-right: 62px;
-    text-align: center;
+  width: 220px;
+  height: 100vh;
+  background-color: #03254c;
+  margin-left: 11px;
+  margin-right: 62px;
+  text-align: center;
 }
 
 .main-h {
-    font-size: 21px;
-    color: white;
+  font-size: 21px;
+  color: white;
 }
 
 .h {
-    color: white;
-    font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
 #select-div {
-    display: flex;
+  display: flex;
 }
 
 .div-h {
-    margin-left: 13px;
+  margin-left: 13px;
 }
 
 .icon-h {
-    color: white;
-    margin-top: 22px;
-    margin-left: 107px;
+  color: white;
+  margin-top: 22px;
+  margin-left: 107px;
 }
 
 .team-h {
-    color: white;
-    font-size: 16px;
-    margin-left: -66px;
+  color: white;
+  font-size: 16px;
+  margin-left: -66px;
 }
 
 .welcome-input {
-    width: 200px;
-    margin-top: 6px;
-    height: 33px;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    padding-left: 10px;
+  width: 200px;
+  margin-top: 6px;
+  height: 33px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding-left: 10px;
 }
 
 /* CASE STUDY  */
 #case-study-main-div {
-    display: flex;
+  display: flex;
 }
 
 #case-study-content-div {
-    width: 900px;
-    height: 100vh;
+  width: 900px;
+  height: 100vh;
 }
 
 #case-study-top-div {
-    width: 890px;
-    display: flex;
-    justify-content: space-between;
+  width: 890px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #create-btn {
-    font-size: 16px;
-    margin-left: 0px;
-    margin-top: 17px;
-    background-color: #03254c;
-    color: white;
-    width: 215px;
-    height: 34px;
-    border: none;
-    outline: none;
+  font-size: 16px;
+  margin-left: 0px;
+  margin-top: 17px;
+  background-color: #03254c;
+  color: white;
+  width: 215px;
+  height: 34px;
+  border: none;
+  outline: none;
 }
 
 #case-study-mid-div {
-    width: 890px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 28px;
+  width: 890px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
 }
 
 #case-study-bottom-div {
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
-    margin-top: 35px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 35px;
 }
 
 #bottom-div-headings {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #case-study-input {
-    width: 300px;
-    height: 34px;
-    border: none;
-    outline: none;
-    background-color: rgb(240, 240, 240);
-    margin-right: 20px;
+  width: 300px;
+  height: 34px;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 240, 240);
+  margin-right: 20px;
 }
 
 #case-study-filter {
-    width: 201px;
-    height: 34px;
-    border: none;
-    outline: none;
-    margin-right: 20px;
-    background-color: #03254c;
-    color: white;
-    font-size: 16px;
+  width: 201px;
+  height: 34px;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+  background-color: #03254c;
+  color: white;
+  font-size: 16px;
 }
 
 #case-study-setting {
-    width: 201px;
-    height: 34px;
-    border: none;
-    outline: none;
-    background-color: #03254c;
-    color: white;
-    font-size: 16px;
+  width: 201px;
+  height: 34px;
+  border: none;
+  outline: none;
+  background-color: #03254c;
+  color: white;
+  font-size: 16px;
 }
 
 .case-study-h {
-    font-size: 20px;
-    margin-left: 15px;
+  font-size: 20px;
+  margin-left: 15px;
 }
 
 #case-study-content-div {
-    margin-left: 55px;
+  margin-left: 55px;
 }
 
 .dots {
-    /* margin-right: 20px; */
+  /* margin-right: 20px; */
 }
 
 .list-main-div {
-    display: flex;
+  display: flex;
 }
 
 .case-img {
-    width: 31px;
-    height: 64px;
-    object-fit: contain;
-    margin-left: 91px;
+  width: 31px;
+  height: 64px;
+  object-fit: contain;
+  margin-left: 91px;
 }
 
 .id {
-    /* margin-left:106px; */
+  /* margin-left:106px; */
 }
 
 .title {
-    /* margin-left:108px; */
+  /* margin-left:108px; */
 }
 
 .field {
-    margin-left: 88px;
-    font-size: 15px;
-    width: 100px;
-    height: 34px;
-
+  margin-left: 88px;
+  font-size: 15px;
+  width: 100px;
+  height: 34px;
 }
 
 .state {
-    text-align: center;
-    width: 124px;
-    height: 28px;
-    background-color: green;
-    margin-left: 83px;
-    color: white;
-    padding: 5px;
-    margin-top: 16px;
-    font-weight: bolder;
-    border-radius: 20px;
+  text-align: center;
+  width: 124px;
+  height: 28px;
+  background-color: green;
+  margin-left: 83px;
+  color: white;
+  padding: 5px;
+  margin-top: 16px;
+  font-weight: bolder;
+  border-radius: 20px;
 }
 
 .dotss {
-    margin-left: 53px;
+  margin-left: 53px;
 }
 
 #new-entry-div {
-    margin: 37px;
+  margin: 37px;
 }
 
 .new-entry-input {
-    width: 202px;
-    height: 32px;
-    margin-left: 20px;
+  width: 202px;
+  height: 32px;
+  margin-left: 20px;
 }
 
 #add-entry-btn {
-    width: 105px;
-    height: 32px;
-    border: none;
-    outline: none;
-    background-color: #03254c;
-    color: white;
-    margin-left: 23px;
+  width: 105px;
+  height: 32px;
+  border: none;
+  outline: none;
+  background-color: #03254c;
+  color: white;
+  margin-left: 23px;
 }
 
 /* CREATE NEW  */
 #create-main-div {
-    display: flex;
+  display: flex;
 }
 
 #create-new-div {
-    margin-left: 60px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
-    width: 963px;
-    height: 564px;
+  margin-left: 60px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  width: 963px;
+  height: 564px;
 }
 
 #create-new-main-h {
-    margin-left: 28px;
-    margin-top: 24px;
-    font-size: 32px;
-    color: #03254c;
+  margin-left: 28px;
+  margin-top: 24px;
+  font-size: 32px;
+  color: #03254c;
 }
 
 #confi-h {
-    margin-left: 34px;
-    margin-top: 27px;
-    font-size: 25px;
+  margin-left: 34px;
+  margin-top: 27px;
+  font-size: 25px;
 }
 
 #data-h {
-    margin-left: 36px;
-    margin-top: -19px;
-    font-size: 19px;
+  margin-left: 36px;
+  margin-top: -19px;
+  font-size: 19px;
 }
 
 #settings-div {
-    display: flex;
+  display: flex;
 }
 
 .set-name {
-    width: 431px;
-    font-size: 24px;
-    margin-left: 40px;
-    color: #03254c;
-    height: 34px;
-    cursor: pointer;
+  width: 431px;
+  font-size: 24px;
+  margin-left: 40px;
+  color: #03254c;
+  height: 34px;
+  cursor: pointer;
 }
 
 .set-content {
-    margin-top: 79px;
-    margin-left: -899px;
-    width: 300px;
-    height: 390px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 79px;
+  margin-left: -899px;
+  width: 300px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
 }
 
 .set-input {
-    width: 469px;
-    height: 32px;
-    margin-top: 8px;
-    margin-left: -1px;
+  width: 469px;
+  height: 32px;
+  margin-top: 8px;
+  margin-left: -1px;
 }
 
 .del-btn {
-    width: 200px;
-    height: 34px;
-    margin-top: -34px;
-    margin-left: 275px;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: #03254c;
-
+  width: 200px;
+  height: 34px;
+  margin-top: -34px;
+  margin-left: 275px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #03254c;
 }
 
 .cancel-btn {
-    width: 200px;
-    height: 34px;
-    margin-top: 39px;
-    margin-left: 2px;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: #03254c;
-
+  width: 200px;
+  height: 34px;
+  margin-top: 39px;
+  margin-left: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #03254c;
 }
 
 #draft {
-    margin-top: 0px;
-    margin-left: 0px;
-    font-size: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-size: 20px;
 }
 
 #inter {
-    margin-top: -98px;
-    margin-left: 492px;
-    font-size: 20px;
+  margin-top: -98px;
+  margin-left: 492px;
+  font-size: 20px;
 }
 
 .set-p {
-    margin-top: -16px;
-    margin-left: 1px;
-    font-size: 17px;
+  margin-top: -16px;
+  margin-left: 1px;
+  font-size: 17px;
 }
 
 .set-pp {
-    width: 407px;
-    margin-top: -9px;
-    margin-left: 495px;
-    font-size: 17px;
+  width: 407px;
+  margin-top: -9px;
+  margin-left: 495px;
+  font-size: 17px;
 }
 
 .active-set {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* MEDIA LIBRARY */
 #media-library-content-main-div {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 #library-main-div {
-    display: flex;
+  display: flex;
 }
 
 #lib-top-pannel {
-    display: flex;
+  display: flex;
 }
 
 #lib-media-h {
-    font-size: 36px;
-    margin-top: 9px;
+  font-size: 36px;
+  margin-top: 9px;
 }
 
 #lib-upload {
-    font-size: 16px;
-    margin-top: -28px;
+  font-size: 16px;
+  margin-top: -28px;
 }
 
 .lib-add-btn {
-    width: 198px;
-    height: 34px;
-    background-color: #03254c;
-    color: white;
-    margin-top: 20px;
-    margin-left: 175px;
+  width: 198px;
+  height: 34px;
+  background-color: #03254c;
+  color: white;
+  margin-top: 20px;
+  margin-left: 175px;
 }
 
 .lib-right-btn {
-    margin-right: -105px;
+  margin-right: -105px;
 }
 
 #lib-label {
-    font-size: 22px;
-    margin-left: -183px;
+  font-size: 22px;
+  margin-left: -183px;
 }
 
 #lib-mid-pannel {
-    display: flex;
-    justify-content: space-between;
-    width: 912px;
-    height: 52px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 912px;
+  height: 52px;
+  margin-top: 30px;
 }
 
 #lib-select {
-    padding: 3px;
-    width: 203px;
-    height: 34px;
+  padding: 3px;
+  width: 203px;
+  height: 34px;
 }
 
 #lib-filter {
-    width: 203px;
-    height: 34px;
-    background-color: #03254c;
-    color: white;
+  width: 203px;
+  height: 34px;
+  background-color: #03254c;
+  color: white;
 }
 
 #lib-input {
-    width: 18px;
-    height: 34px;
-    margin-left: 0px;
-    margin-top: 0px;
+  width: 18px;
+  height: 34px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 #lib-bottom-pannel {
-    box-shadow:4px 8px 6px 3px rgba(0, 0, 0, 0.5);
-    width: 905px;
-    height: 500px;
-    margin-left: -909px;
-    margin-top: 195px;
+  box-shadow: 4px 8px 6px 3px rgba(0, 0, 0, 0.5);
+  width: 905px;
+  height: 500px;
+  margin-left: -909px;
+  margin-top: 195px;
 }
 
 #img-vid-h {
-    width: 330px;
-    margin-top: -11px;
-    font-size: 16px;
-    margin-left: 288px;
-    text-align: center;
+  width: 330px;
+  margin-top: -11px;
+  font-size: 16px;
+  margin-left: 288px;
+  text-align: center;
 }
 
 #img-vid-btn {
-    margin-left: 353px;
-    margin-top: 5px;
-    font-size: 15px;
-    text-align: center;
-    width: 200px;
-    height: 34px;
-    background-color: #03254c;
-    color: white;
+  margin-left: 353px;
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
+  width: 200px;
+  height: 34px;
+  background-color: #03254c;
+  color: white;
 }
 
 #no-assests {
-    margin-top: 287px;
-    font-size: 23px;
-    text-align: center;
+  margin-top: 287px;
+  font-size: 23px;
+  text-align: center;
 }

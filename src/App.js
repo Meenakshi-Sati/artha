@@ -9,19 +9,20 @@ import CaseStudy from './COMPONENTS/Case Study/Case Study';
 import Createnew from './COMPONENTS/Create New/Create New';
 import MediaLibrary from './COMPONENTS/Media Library/Media Library';
 import Settings from './COMPONENTS/Settings/Settings';
+import Demo from './COMPONENTS/Demo/Demo';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/welcome" element={<Welcome />} />
-      <Route path="/caseStudy" element={<CaseStudy />} />
-      <Route path="/createnew" element={<Createnew />} />
-      <Route path="/medialibrary" element={<MediaLibrary />} />
-      <Route path="/setting" element={<Settings />} />
-      
+      <Route path='/' element={<Home />} />
+      <Route path='/signup' element={<Signup />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/welcome' element={<Welcome />} />
+      <Route path='/caseStudy' element={<CaseStudy />} />
+      <Route path='/createnew' element={<Createnew />} />
+      <Route path='/medialibrary' element={<MediaLibrary />} />
+      <Route path='/setting' element={<Settings />} />
+      <Route path='/demo' element={<Demo />} />
     </Routes>
   );
 }
